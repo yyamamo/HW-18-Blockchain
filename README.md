@@ -17,14 +17,14 @@ Decompress the downloaded zip file in the folder of the network.
 # How to start the network.
 #### Open a terminal (Git Bash in Windows) and navigate to the directory of the network folder
 ### To unlock the node1:
-./geth --datadir node1 --unlock "0x83dB998A12AB5E416cE813cD91876e74f2Ec45Ff" --mine --minerthreads 1
-#### Put the public address of the node1 within the quotation mark after --unlock  
+./geth --datadir node1 --unlock "83dB998A12AB5E416cE813cD91876e74f2Ec45Ff" --mine --minerthreads 1
+#### Put the public address of the node1 within the quotation mark after --unlock. Do not include the leading "Ox".   
 #### Enter the password: 10969 and hit enter
 
 ### To unlock the node2
 #### Open another terimal and navigate to the directory of the network folder
-./geth --datadir node2 --unlock "0xeF29ef94842Ece93B91EAB8EDEAf39951df83CAF" --port 30304 --rpc --bootnodes "enode://replace with the new unlocked node1 enode address" --ipcdisable --allow-insecure-unlock
-#### Put the public address of the node2 within the quotation mark after --unlock
+./geth --datadir node2 --unlock "eF29ef94842Ece93B91EAB8EDEAf39951df83CAF" --port 30304 --rpc --bootnodes "enode://replace with the new unlocked node1 enode address" --ipcdisable --allow-insecure-unlock
+#### Put the public address of the node2 within the quotation mark after --unlock. Do not include the leading "Ox".   
 #### Enter the password: 10969 and hit enter
 
 # Configurations 
