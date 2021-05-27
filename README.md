@@ -1,4 +1,4 @@
-# Tools and utilities to be installed before starting the network
+### Tools and utilities to be installed before starting the network
 ### 1.	MyCrypto Destop App
 Download MyCrypto Desktop App from  https://download.mycrypto.com/
 
@@ -8,6 +8,7 @@ Select version “Geth & Tools 1.9.7” in the Stable Releases section.
 Decompress the downloaded zip file in the folder of the network.
 
 # Description of the network
+#### Nodes and jason files are saved in "fujioka" folder
 #### Network name: fujioka
 #### Chain ID: 335
 #### Passwords for nodes: 10969
