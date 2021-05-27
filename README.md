@@ -4,8 +4,8 @@ Download MyCrypto Desktop App from  https://download.mycrypto.com/
 
 ### 2.	Go Ethereum Tools
 Download Go Ethereum Tools from https://geth.ethereum.org/downloads/
-Select version “Geth & Tools 1.9.7” in the Stable Releases section.
-Decompress the downloaded zip file in the folder of the network.
+Select version “Geth & Tools 1.9.7” in the Stable Releases section
+Decompress the downloaded zip file in the folder of the network
 
 # Description of the network
 #### Nodes and jason files are saved in "fujioka" folder
@@ -15,17 +15,19 @@ Decompress the downloaded zip file in the folder of the network.
 #### node1: Public address of the key: 0x83dB998A12AB5E416cE813cD91876e74f2Ec45Ff
 #### node2: Public address of the key: 0xeF29ef94842Ece93B91EAB8EDEAf39951df83CAF
 
-# How to start the network.
+# How to start the network
 #### Open a terminal (Git Bash in Windows) and navigate to the directory of the network folder, named "fujioka"
 ### To unlock the node1:
 ./geth --datadir node1 --unlock "83dB998A12AB5E416cE813cD91876e74f2Ec45Ff" --mine --minerthreads 1
-#### Put the public address of the node1 within the quotation mark after --unlock. Do not include the leading "0x".   
+#### Put the public address of the node1 within the quotation mark after --unlock. Do not include the leading "0x"   
 #### Enter the password: 10969 and hit enter
 
 ### To unlock the node2
 #### Open another terimal and navigate to the directory of the network folder
 ./geth --datadir node2 --unlock "eF29ef94842Ece93B91EAB8EDEAf39951df83CAF" --port 30304 --rpc --bootnodes "enode://{add the enode address of node1}" --ipcdisable --allow-insecure-unlock
-#### Put the public address of the node2 within the quotation mark after --unlock. Do not include the leading "0x".   
+#### Put the public address of the node2 within the quotation mark after --unlock. Do not include the leading "0x"
+#### Location to find node1's enode address is shown below
+![image](https://user-images.githubusercontent.com/76085861/119761788-16066880-be72-11eb-9012-7d907f3f8258.png)
 #### Enter the password: 10969 and hit enter
 
 # Configurations 
@@ -36,13 +38,13 @@ Decompress the downloaded zip file in the folder of the network.
 #### Block time: (default = 15)  just hit enter	
 #### Paste both addresses of node1 and node2 to the list of accounts to seal
 #### Paste both addresses again to the list of prefunded accounts.
-#### Type “no” for pre-funding the pre-compiled accounts (0x1 .. 0xff) with wei.
+#### Type “no” for pre-funding the pre-compiled accounts (0x1 .. 0xff) with wei
 #### Type “335” as chain Id
 #### Select #2 Manage existing genesis
 #### Select #2 Export genesis configurations
 #### To create json files, hit enter
 #### After json files are created, terminate puppeth by using “Ctrl C”
-#### For the further details of the configurations, see the image below.  
+#### For the further details of the configurations, see the image below  
 
 ![image](https://user-images.githubusercontent.com/76085861/119597268-4e407500-bda6-11eb-9f32-e06c208cfd1b.png)
 
