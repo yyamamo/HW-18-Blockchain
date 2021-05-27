@@ -16,7 +16,7 @@ Decompress the downloaded zip file in the folder of the network.
 #### node2: Public address of the key: 0xeF29ef94842Ece93B91EAB8EDEAf39951df83CAF
 
 # How to start the network.
-#### Open a terminal (Git Bash in Windows) and navigate to the directory of the network folder
+#### Open a terminal (Git Bash in Windows) and navigate to the directory of the network folder, named "fujioka"
 ### To unlock the node1:
 ./geth --datadir node1 --unlock "83dB998A12AB5E416cE813cD91876e74f2Ec45Ff" --mine --minerthreads 1
 #### Put the public address of the node1 within the quotation mark after --unlock. Do not include the leading "0x".   
