@@ -1,0 +1,37 @@
+=============== May 26, 2021 (CDT) ===============
+01:47:05.205464 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:47:05.214439 db@open opening
+01:47:05.216432 version@stat F·[] S·0B[] Sc·[]
+01:47:05.219425 db@janitor F·2 G·0
+01:47:05.220422 db@open done T·4.9849ms
+01:52:35.898107 db@close closing
+01:52:35.899105 db@close done T·997.9µs
+=============== May 26, 2021 (CDT) ===============
+01:58:50.690277 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:58:50.697314 version@stat F·[] S·0B[] Sc·[]
+01:58:50.697314 db@open opening
+01:58:50.698255 journal@recovery F·1
+01:58:50.698255 journal@recovery recovering @1
+01:58:50.711221 memdb@flush created L0@2 N·2358 S·64KiB "loc..seq,v25":"version,v1"
+01:58:50.713232 version@stat F·[1] S·64KiB[64KiB] Sc·[0.25]
+01:58:50.726181 db@janitor F·3 G·0
+01:58:50.726181 db@open done T·28.867ms
+02:02:34.525015 db@close closing
+02:02:34.527008 db@close done T·1.9925ms
+=============== May 26, 2021 (CDT) ===============
+02:15:11.810319 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+02:15:11.818295 version@stat F·[1] S·64KiB[64KiB] Sc·[0.25]
+02:15:11.819292 db@open opening
+02:15:11.821287 journal@recovery F·1
+02:15:11.824280 journal@recovery recovering @3
+02:15:11.838242 memdb@flush created L0@5 N·1541 S·42KiB "loc..seq,v2381":"n:\xff..ing,v2604"
+02:15:11.843232 version@stat F·[2] S·106KiB[106KiB] Sc·[0.50]
+02:15:11.858192 db@janitor F·4 G·0
+02:15:11.859214 db@open done T·39.9227ms
+02:15:11.940967 table@compaction L0·2 -> L1·0 S·106KiB Q·3901
+02:15:11.963905 table@build created L1@8 N·2517 S·90KiB "loc..seq,v2381":"version,v1"
+02:15:11.963905 version@stat F·[0 1] S·90KiB[0B 90KiB] Sc·[0.00 0.00]
+02:15:11.966898 table@compaction committed F-1 S-16KiB Ke·0 D·1382 T·25.9303ms
+02:15:11.977868 table@remove removed @2
+02:30:46.961085 db@close closing
+02:30:46.963087 db@close done T·2.0024ms

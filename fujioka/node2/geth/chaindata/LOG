@@ -1,0 +1,44 @@
+=============== May 26, 2021 (CDT) ===============
+01:41:42.684327 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:41:42.693304 db@open opening
+01:41:42.696306 version@stat F·[] S·0B[] Sc·[]
+01:41:42.699335 db@janitor F·2 G·0
+01:41:42.699335 db@open done T·6.0312ms
+01:41:42.715254 db@close closing
+01:41:42.716255 db@close done T·1.0003ms
+=============== May 26, 2021 (CDT) ===============
+01:47:04.812551 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:47:04.820497 version@stat F·[] S·0B[] Sc·[]
+01:47:04.820497 db@open opening
+01:47:04.821495 journal@recovery F·1
+01:47:04.828491 journal@recovery recovering @1
+01:47:04.833504 memdb@flush created L0@2 N·15 S·1KiB ",I\x91..\\S\x93,v4":"\xb7\x01\xa2..\xfbP ,v3"
+01:47:04.842441 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+01:47:04.861965 db@janitor F·3 G·0
+01:47:04.862965 db@open done T·42.468ms
+01:52:35.392385 db@close closing
+01:52:35.393382 db@close done T·996.8µs
+=============== May 26, 2021 (CDT) ===============
+01:58:50.340213 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:58:50.345199 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+01:58:50.345199 db@open opening
+01:58:50.346197 journal@recovery F·1
+01:58:50.352194 journal@recovery recovering @3
+01:58:50.359161 memdb@flush created L0@5 N·3 S·497B "Dat..ion,v17":"cli..\x19\x9e\x94,v19"
+01:58:50.365182 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+01:58:50.377115 db@janitor F·4 G·0
+01:58:50.377115 db@open done T·31.916ms
+02:02:34.521025 db@close closing
+02:02:34.522025 db@close done T·1ms
+=============== May 26, 2021 (CDT) ===============
+02:15:11.368447 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+02:15:11.373435 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+02:15:11.373435 db@open opening
+02:15:11.373435 journal@recovery F·1
+02:15:11.379419 journal@recovery recovering @6
+02:15:11.384456 memdb@flush created L0@8 N·1 S·216B "Las..der,v21":"Las..der,v21"
+02:15:11.391458 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+02:15:11.403406 db@janitor F·5 G·0
+02:15:11.403406 db@open done T·29.9706ms
+02:30:46.453032 db@close closing
+02:30:46.456988 db@close done T·3.9557ms
