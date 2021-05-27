@@ -11,7 +11,7 @@ Decompress the downloaded zip file in the folder of the network.
 #### Nodes and jason files are saved in "fujioka" folder
 #### Network name: fujioka
 #### Chain ID: 335
-#### Passwords for nodes: 10969
+#### Passwords for the nodes: 10969
 #### node1: Public address of the key: 0x83dB998A12AB5E416cE813cD91876e74f2Ec45Ff
 #### node2: Public address of the key: 0xeF29ef94842Ece93B91EAB8EDEAf39951df83CAF
 
