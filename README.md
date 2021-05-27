@@ -24,7 +24,7 @@ Decompress the downloaded zip file in the folder of the network.
 
 ### To unlock the node2
 #### Open another terimal and navigate to the directory of the network folder
-./geth --datadir node2 --unlock "eF29ef94842Ece93B91EAB8EDEAf39951df83CAF" --port 30304 --rpc --bootnodes "enode://{{add the enode of node1 enode}}" --ipcdisable --allow-insecure-unlock
+./geth --datadir node2 --unlock "eF29ef94842Ece93B91EAB8EDEAf39951df83CAF" --port 30304 --rpc --bootnodes "enode://{add the enode address of node1 enode}" --ipcdisable --allow-insecure-unlock
 #### Put the public address of the node2 within the quotation mark after --unlock. Do not include the leading "0x".   
 #### Enter the password: 10969 and hit enter
 
